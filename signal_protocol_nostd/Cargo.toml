@@ -1,6 +1,11 @@
 [package]
 name = "signal_protocol_nostd"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+
+
+[features]
+default = ["std"]
+std = []
